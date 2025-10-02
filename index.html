@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sharon Bousso CS Journey</title>
+  <title>Sharon Bousso - Software Developer</title>
   <meta name="description" content="A timeline style portfolio showcasing growth, projects, and skills." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -90,43 +90,22 @@
   </style>
 </head>
 <body>
-  <header>
-    <div class="container nav">
-      <div class="brand"><span class="dot"></span> <span>Sharon Bousso</span></div>
-      <nav class="links">
-        <a class="btn" href="#portfolio">Portfolio</a>
-        <a class="btn" href="#projects">Highlights</a>
-        <a class="btn" href="#timeline">Timeline</a>
-        <a class="btn" href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
   <main class="container">
     <!-- HERO -->
     <div class="portfolio-section">
+      <h1 style="text-align:center; margin-bottom:24px; font-size:48px;">Sharon Bousso | Software Developer</h1>
       <section id="portfolio" class="card">
         <div class="hero-grid">
           <div>
-            <h1>CS journey security minded backend dev</h1>
-            <p>I ship real systems: Flask/GAE services, Node/Express backends, Chef driven infra, and playful computer vision demos.</p>
-            <div class="chips">
-              <span class="chip">Python • Flask • GCP</span>
-              <span class="chip">Node • Express • Socket.IO</span>
-              <span class="chip">OpenGL • C/C++</span>
-              <span class="chip">Security • Chef • Grafana</span>
-            </div>
+            <p style="font-size:18px; margin-bottom:16px;">I’ve been programming for a long time, and what keeps me going is that I genuinely enjoy it. Writing code is fun for me, whether I’m building something from scratch, digging into an unfamiliar framework, or experimenting with a new language to see what I can make it do. I’ve worked across many languages including Python, JavaScript, C/C++, and more, I really like challenging myself to pick up new tools and approaches.
+              <br>
+              <br>
+              Along the way, I’ve also loved creating code solutions to real life problems whenever I see something I can fix with code. Programming isn’t just a career path for me, it’s a passion I deeply care about and something I'm excited to continue growing in.</p>
             <div style="margin-top:16px">
-              <strong>Quick facts</strong>
-              <ul>
-                <li>OSU Post Bacc CS expected Aug 2025</li>
-                <li>Focus: backend • security • systems</li>
-                <li>Open to SWE (backend/sec) roles</li>
-              </ul>
               <div class="chips">
                 <a class="btn" href="https://github.com/sharoninator/" target="_blank" rel="noreferrer">GitHub</a>
                 <a class="btn" href="https://www.linkedin.com/in/sharon-bousso" target="_blank" rel="noreferrer">LinkedIn</a>
-                <a class="btn" href="resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+                <!-- <a class="btn" href="resume.pdf" target="_blank" rel="noreferrer">Download Resume</a> -->
               </div>
             </div>
           </div>
@@ -142,7 +121,7 @@
         <article class="p-card">
           <div class="p-meta">Security</div>
           <h3>Website Security Tool</h3>
-          <p>Intentionally vulnerable Node app with secure counterparts. Demos insecure design and misconfigurations.</p>
+          <p>Dual environment AppSec sandbox built with Node.js, Express, and MongoDB, hosting separate vulnerable and secure instances of a web platform for educational use. Users can switch between versions and actively launch exploits such as SQL injection, XSS, and CSRF to see how attacks behave in each environment.</p>
           <div class="p-links">
             <a href="https://github.com/sharoninator/Website-Security-Tool" target="_blank" rel="noreferrer">Code</a>
             <a href="https://youtu.be/lDMnfZTMRa4" target="_blank" rel="noreferrer">Demo</a>
@@ -151,7 +130,7 @@
         <article class="p-card">
           <div class="p-meta">Systems Design</div>
           <h3>The Hive Game Server</h3>
-          <p>Node/Express REST with Socket.IO streaming and four way symmetric map generation. Adopted across district for intro CS.</p>
+          <p>A Node.js game platform adopted across multiple Summit Public Schools to teach intro CS. Express handled REST APIs for match setup and map generation, while Socket.io streamed turn by turn game state to student programs. The generator created symmetric maps with guaranteed connectivity between bases and resources to ensure fairness.</p>
           <div class="p-links">
             <a href="https://github.com/smtcs/Ai-Server?tab=readme-ov-file" target="_blank" rel="noreferrer">Code</a>
             <a href="https://www.youtube.com/watch?v=vlTiQEDE2n8" target="_blank" rel="noreferrer">Demo</a>
@@ -160,7 +139,7 @@
         <article class="p-card">
           <div class="p-meta">Backend</div>
           <h3>Tarpaulin REST API</h3>
-          <p>Flask + GCP Datastore + Auth0. Dockerized deploy, CRUD with cascading deletes and avatar uploads.</p>
+          <p>Built a Flask web service with Google Cloud Datastore and Auth0 authentication. The app supports full CRUD operations with cascading deletes, user avatar uploads, and is packaged with Docker for streamlined deployment.</p>
         </article>
       </div>
     </section>
@@ -190,10 +169,10 @@
           <div class="t-dot" aria-hidden="true"></div>
           <div class="t-panel">
             <div class="t-row">
-              <div class="t-title">Security demos Website Security Tool</div>
+              <div class="t-title">Website Security Tool</div>
               <div class="t-time">2024</div>
             </div>
-            <p class="t-desc">Node/Express app with intentionally vulnerable and secure endpoints to teach insecure design, path traversal, and misconfigurations.</p>
+            <p class="t-desc">Dual environment AppSec sandbox built with Node.js, Express, and MongoDB, hosting separate vulnerable and secure instances of a web platform for educational use. Users can switch between versions and actively launch exploits such as SQL injection, XSS, and CSRF to see how attacks behave in each environment.</p>
             <div class="t-tags">
               <span class="tag">Node/Express</span>
               <span class="tag">Security</span>
@@ -212,7 +191,7 @@
               <div class="t-title">Tarpaulin course management REST API</div>
               <div class="t-time">2024</div>
             </div>
-            <p class="t-desc">Flask with Google Cloud Datastore and Auth0. CI, Postman tests, and Dockerized deploy to GCP. Reliable CRUD with avatar uploads to GCS.</p>
+            <p class="t-desc">Built a Flask web service with Google Cloud Datastore and Auth0 authentication. The app supports full CRUD operations with cascading deletes, user avatar uploads, and is packaged with Docker for streamlined deployment.</p>
             <div class="t-tags">
               <span class="tag">Python/Flask</span>
               <span class="tag">GCP/Datastore</span>
@@ -221,6 +200,23 @@
           </div>
         </div>
         <div class="t-item right">
+          <div class="t-dot" aria-hidden="true"></div>
+          <div class="t-panel" style="border-left: 4px solid var(--accent-2);">
+            <div class="t-row">
+              <div class="t-title">Systems Engineer</div>
+              <div class="t-time">Jun 2023 - May 2025</div>
+            </div>
+            <p class="t-desc" style="font-weight: 600; margin-bottom: 8px;">Open Source Lab at OSU, Corvallis, Oregon</p>
+            <p class="t-desc">Managed infrastructure for 300+ Linux servers with Chef and OpenStack, supporting 160+ open source projects and ~430TB of monthly traffic for organizations like Apache, Linux Foundation, and Drupal.</p>
+            <div class="t-tags">
+              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Chef</span>
+              <span class="tag" style="background: #1a2332; border-color: #2a3441;">OpenStack</span>
+              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Linux</span>
+              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Jenkins</span>
+            </div>
+          </div>
+        </div>
+        <div class="t-item left">
           <div class="t-dot" aria-hidden="true"></div>
           <div class="t-panel">
             <div class="t-row">
@@ -236,7 +232,7 @@
             </div>
           </div>
         </div>
-        <div class="t-item left">
+        <div class="t-item right">
           <div class="t-dot" aria-hidden="true"></div>
           <div class="t-panel">
             <div class="t-row">
@@ -254,7 +250,41 @@
           </div>
         </div>
         <div class="t-marker"><span class="pill">High School Graduation 2021</span></div>
+        <div class="t-item left">
+          <div class="t-dot" aria-hidden="true"></div>
+          <div class="t-panel" style="border-left: 4px solid var(--accent-2);">
+            <div class="t-row">
+              <div class="t-title">DevSecOps Engineer</div>
+              <div class="t-time">Jun 2020 - Jul 2021</div>
+            </div>
+            <p class="t-desc" style="font-weight: 600; margin-bottom: 8px;">Black Cat Security, San Francisco, California</p>
+            <p class="t-desc">Built and deployed secure AWS architectures with EC2, VPC, load balancing, and WAF, enforcing best practices for access control and data protection. Assessed HIPAA, GDPR, and CIS compliance, identifying vulnerabilities and analyzing compliance data at scale with Elasticsearch and AWS S3. Conducted penetration tests on client systems, delivering detailed reports and implementing security hardening measures.</p>
+            <div class="t-tags">
+              <span class="tag" style="background: #1a2332; border-color: #2a3441;">AWS</span>
+              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Security</span>
+              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Compliance</span>
+              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Penetration Testing</span>
+            </div>
+          </div>
+        </div>
         <div class="t-item right">
+          <div class="t-dot" aria-hidden="true"></div>
+          <div class="t-panel" style="border-left: 4px solid var(--accent-2);">
+            <div class="t-row">
+              <div class="t-title">Software Development Intern</div>
+              <div class="t-time">Nov 2020 - Jan 2021</div>
+            </div>
+            <p class="t-desc" style="font-weight: 600; margin-bottom: 8px;">eXel AI (DeRisking Strategies)</p>
+            <p class="t-desc">Built and tested computer vision pipelines on Raspberry Pi 4 with Python, OpenCV, TensorFlow Lite, and Coral TPU, enabling real time object detection and pose estimation. Created and labeled image datasets to generate high quality training data for custom ML models.</p>
+            <div class="t-tags">
+              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Python</span>
+              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Computer Vision</span>
+              <span class="tag" style="background: #1a2332; border-color: #2a3441;">TensorFlow</span>
+              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Raspberry Pi</span>
+            </div>
+          </div>
+        </div>
+        <div class="t-item left">
           <div class="t-dot" aria-hidden="true"></div>
           <div class="t-panel">
             <div class="t-row">
@@ -269,14 +299,14 @@
             </div>
           </div>
         </div>
-        <div class="t-item left">
+        <div class="t-item right">
           <div class="t-dot" aria-hidden="true"></div>
           <div class="t-panel">
             <div class="t-row">
               <div class="t-title">The Hive</div>
               <div class="t-time">May 2018 to Mar 2019</div>
             </div>
-            <p class="t-desc">Built The Hive, a Node.js game platform adopted across multiple Summit Public Schools to teach intro CS. Express handled REST APIs for match setup and map generation, while Socket.io streamed turn by turn game state to student programs. The generator created symmetric maps with guaranteed connectivity between bases and resources to ensure fairness.</p>
+            <p class="t-desc">A Node.js game platform adopted across multiple Summit Public Schools to teach intro CS. Express handled REST APIs for match setup and map generation, while Socket.io streamed turn by turn game state to student programs. The generator created symmetric maps with guaranteed connectivity between bases and resources to ensure fairness.</p>
             <div class="t-tags">
               <span class="tag">Node</span>
               <span class="tag">Socket.IO</span>
@@ -294,7 +324,7 @@
   </main>
 
   <footer class="container">
-    <p>&copy; 2025 Sharon Bousso. Built with passion for backend development and security.</p>
+    <p>&copy; 2025 Sharon Bousso.</p>
   </footer>
 </body>
 </html>
