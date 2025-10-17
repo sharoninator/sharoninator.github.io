@@ -61,6 +61,7 @@
     .t-item .t-panel{background:linear-gradient(180deg,#121520,#0e1016); border:1px solid #1b1e28; border-radius:14px; padding:16px; box-shadow:var(--shadow); width:92%}
     .t-item.left .t-panel{grid-column:1; justify-self:end}
     .t-item.right .t-panel{grid-column:2; justify-self:start}
+  .t-panel.highlight{border-left: 4px solid var(--accent-2);}
     .t-dot{position:absolute; left:50%; top:38px; width:14px; height:14px; border-radius:50%; background:radial-gradient(circle at 30% 30%, var(--accent-2), #2abf86); box-shadow:0 0 0 3px rgba(142,245,184,0.15); transform:translate(-50%, -50%)}
     .t-row{display:flex; align-items:center; justify-content:space-between; gap:12px}
     .t-title{font-weight:700}
@@ -147,21 +148,28 @@
     <!-- TIMELINE -->
     <section id="timeline" class="card" style="margin-top:20px">
       <div class="t-row" style="margin-bottom:8px; display:flex; align-items:center; justify-content:space-between">
-        <h2 style="margin:0">Projects Timeline</h2>
+        <h2 style="margin:0">Computer Science Timeline</h2>
       </div>
       <div class="timeline">
         <div class="t-marker"><span class="pill">University Graduation 2025</span></div>
         <div class="t-item left">
           <div class="t-dot" aria-hidden="true"></div>
-          <div class="t-panel">
+          <div class="t-panel highlight">
             <div class="t-row">
-              <div class="t-title">OpenGL 3D projects</div>
-              <div class="t-time">2024 to 2025</div>
+              <div class="t-title">Software Developer</div>
+              <div class="t-time">Oct 2025 - Present</div>
             </div>
-            <p class="t-desc">C/C++ with GLUT. Implemented rotations, scaling, and scene controls. Emphasis on rendering pipeline understanding.</p>
+            <p class="t-desc" style="font-weight: 600; margin-bottom: 8px;">Stealth startup</p>
+            <p class="t-desc">Full Stack developer on an AI/ML product, working across a Node.js and React frontend, and a Python backend with Django and MongoDB. Designing and training computer vision models with PyTorch and OCR pipelines, building the data pipeline (ingestion, OpenCV based preprocessing, evaluation).</p>
             <div class="t-tags">
-              <span class="tag">C/C++</span>
-              <span class="tag">OpenGL</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">React</span>
+              <span class="tag">Python</span>
+              <span class="tag">Django</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">PyTorch</span>
+              <span class="tag">Computer Vision</span>
+              <span class="tag">OCR</span>
             </div>
           </div>
         </div>
@@ -201,7 +209,7 @@
         </div>
         <div class="t-item right">
           <div class="t-dot" aria-hidden="true"></div>
-          <div class="t-panel" style="border-left: 4px solid var(--accent-2);">
+          <div class="t-panel highlight">
             <div class="t-row">
               <div class="t-title">Systems Engineer</div>
               <div class="t-time">Jun 2023 - May 2025</div>
@@ -209,10 +217,10 @@
             <p class="t-desc" style="font-weight: 600; margin-bottom: 8px;">Open Source Lab at OSU, Corvallis, Oregon</p>
             <p class="t-desc">Managed infrastructure for 300+ Linux servers with Chef and OpenStack, supporting 160+ open source projects and ~430TB of monthly traffic for organizations like Apache, Linux Foundation, and Drupal.</p>
             <div class="t-tags">
-              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Chef</span>
-              <span class="tag" style="background: #1a2332; border-color: #2a3441;">OpenStack</span>
-              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Linux</span>
-              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Jenkins</span>
+              <span class="tag">Chef</span>
+              <span class="tag">OpenStack</span>
+              <span class="tag">Linux</span>
+              <span class="tag">Jenkins</span>
             </div>
           </div>
         </div>
@@ -252,7 +260,7 @@
         <div class="t-marker"><span class="pill">High School Graduation 2021</span></div>
         <div class="t-item left">
           <div class="t-dot" aria-hidden="true"></div>
-          <div class="t-panel" style="border-left: 4px solid var(--accent-2);">
+          <div class="t-panel highlight">
             <div class="t-row">
               <div class="t-title">DevSecOps Engineer</div>
               <div class="t-time">Jun 2020 - Jul 2021</div>
@@ -260,16 +268,16 @@
             <p class="t-desc" style="font-weight: 600; margin-bottom: 8px;">Black Cat Security, San Francisco, California</p>
             <p class="t-desc">Built and deployed secure AWS architectures with EC2, VPC, load balancing, and WAF, enforcing best practices for access control and data protection. Assessed HIPAA, GDPR, and CIS compliance, identifying vulnerabilities and analyzing compliance data at scale with Elasticsearch and AWS S3. Conducted penetration tests on client systems, delivering detailed reports and implementing security hardening measures.</p>
             <div class="t-tags">
-              <span class="tag" style="background: #1a2332; border-color: #2a3441;">AWS</span>
-              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Security</span>
-              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Compliance</span>
-              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Penetration Testing</span>
+              <span class="tag">AWS</span>
+              <span class="tag">Security</span>
+              <span class="tag">Compliance</span>
+              <span class="tag">Penetration Testing</span>
             </div>
           </div>
         </div>
         <div class="t-item right">
           <div class="t-dot" aria-hidden="true"></div>
-          <div class="t-panel" style="border-left: 4px solid var(--accent-2);">
+          <div class="t-panel highlight">
             <div class="t-row">
               <div class="t-title">Software Development Intern</div>
               <div class="t-time">Nov 2020 - Jan 2021</div>
@@ -277,10 +285,10 @@
             <p class="t-desc" style="font-weight: 600; margin-bottom: 8px;">eXel AI (DeRisking Strategies)</p>
             <p class="t-desc">Built and tested computer vision pipelines on Raspberry Pi 4 with Python, OpenCV, TensorFlow Lite, and Coral TPU, enabling real time object detection and pose estimation. Created and labeled image datasets to generate high quality training data for custom ML models.</p>
             <div class="t-tags">
-              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Python</span>
-              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Computer Vision</span>
-              <span class="tag" style="background: #1a2332; border-color: #2a3441;">TensorFlow</span>
-              <span class="tag" style="background: #1a2332; border-color: #2a3441;">Raspberry Pi</span>
+              <span class="tag">Python</span>
+              <span class="tag">Computer Vision</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag">Raspberry Pi</span>
             </div>
           </div>
         </div>
