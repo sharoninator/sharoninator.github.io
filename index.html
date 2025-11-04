@@ -166,14 +166,24 @@
       <section id="about" class="card">
         <div class="hero-grid">
           <div>
-            <p style="font-size:18px; margin-bottom:16px;">I've been programming for a long time, and what keeps me going is that I genuinely enjoy it. Writing code is fun for me, whether I'm building something from scratch, digging into an unfamiliar framework, or experimenting with a new language to see what I can make it do. I've worked across many languages including Python, JavaScript, C/C++, and more, I really like challenging myself to pick up new tools and approaches.
+            <p style="font-size:18px; margin-bottom:16px;">I've been programming for a long time, and what keeps me going is that I genuinely enjoy it. Writing code is fun for me, whether I'm building something from scratch, digging into an unfamiliar framework, or experimenting with a new language to see what I can make it do. I've worked across many languages including JavaScript, Python, Java, and more, I really like challenging myself to pick up new tools and approaches.
               <br>
               <br>
               Along the way, I've also loved creating code solutions to real life problems whenever I see something I can fix with code. Programming isn't just a career path for me, it's a passion I deeply care about and something I'm excited to continue growing in.</p>
             <div style="margin-top:16px">
               <div class="chips">
-                <a class="btn" href="https://github.com/sharoninator/" target="_blank" rel="noreferrer">GitHub</a>
-                <a class="btn" href="https://www.linkedin.com/in/sharon-bousso" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a class="btn" href="https://github.com/sharoninator/" target="_blank" rel="noreferrer">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle;">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                  GitHub
+                </a>
+                <a class="btn" href="https://www.linkedin.com/in/sharon-bousso" target="_blank" rel="noreferrer">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle;">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  </svg>
+                  LinkedIn
+                </a>
                 <!-- <a class="btn" href="resume.pdf" target="_blank" rel="noreferrer">Download Resume</a> -->
               </div>
             </div>
@@ -197,6 +207,14 @@
           </div>
         </article>
         <article class="p-card">
+          <div class="p-meta">API Integration</div>
+          <h3>Salesforce Database Sync System</h3>
+          <p>Bidirectional data synchronization platform with REST API for real time user data sync between Salesforce CRM and MySQL database. Uses Apex queueable jobs with triggers for change detection and Node.js/Express middleware to orchestrate bidirectional data flow and transform data between Salesforce and MySQL schemas.</p>
+          <div class="p-links">
+            <a href="https://github.com/sharoninator/sf-user-sync" target="_blank" rel="noreferrer">Code</a>
+          </div>
+        </article>
+        <article class="p-card">
           <div class="p-meta">Systems Design</div>
           <h3>The Hive Game Server</h3>
           <p>A Node.js game platform adopted across multiple Summit Public Schools to teach intro CS. Express handled REST APIs for match setup and map generation, while Socket.io streamed turn by turn game state to student programs. The generator created symmetric maps with guaranteed connectivity between bases and resources to ensure fairness.</p>
@@ -204,11 +222,6 @@
             <a href="https://github.com/smtcs/Ai-Server?tab=readme-ov-file" target="_blank" rel="noreferrer">Code</a>
             <a href="https://www.youtube.com/watch?v=vlTiQEDE2n8" target="_blank" rel="noreferrer">Demo</a>
           </div>
-        </article>
-        <article class="p-card">
-          <div class="p-meta">Backend</div>
-          <h3>Tarpaulin REST API</h3>
-          <p>Built a Flask web service with Google Cloud Datastore and Auth0 authentication. The app supports full CRUD operations with cascading deletes, user avatar uploads, and is packaged with Docker for streamlined deployment.</p>
         </article>
       </div>
     </section>
@@ -219,7 +232,28 @@
         <h2 style="margin:0">Computer Science Timeline</h2>
       </div>
       <div class="timeline">
-        <div class="t-marker"><span class="pill">University Graduation 2025</span></div>
+        <div class="t-item right">
+          <div class="t-dot" aria-hidden="true"></div>
+          <div class="year-tag opposite-left">2025</div>
+          <div class="t-panel">
+            <div class="t-row">
+              <div class="t-title">Salesforce Database Sync System</div>
+              <div class="t-time">November 2025</div>
+            </div>
+            <p class="t-desc">Bidirectional data synchronization platform with REST API for real time user data sync between Salesforce CRM and MySQL database. Uses Apex queueable jobs with triggers for change detection and Node.js/Express middleware to orchestrate bidirectional data flow and transform data between Salesforce and MySQL schemas.</p>
+            <div class="t-tags">
+              <span class="tag">Apex</span>
+              <span class="tag">Salesforce</span>
+              <span class="tag">Node.js/Express</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">API Integration</span>
+              <span class="tag">Railway</span>
+            </div>
+            <div class="t-links">
+              <a href="https://github.com/sharoninator/sf-user-sync" target="_blank" rel="noreferrer">Code</a>
+            </div>
+          </div>
+        </div>
         <div class="t-item left">
           <div class="t-dot" aria-hidden="true"></div>
           <div class="year-tag opposite-right">2025</div>
@@ -242,6 +276,7 @@
             </div>
           </div>
         </div>
+        <div class="t-marker"><span class="pill" style="left: 50%; transform: translateX(0%); position: relative;">University Graduation 2025</span></div>
         <div class="t-item right">
           <div class="t-dot" aria-hidden="true"></div>
           <div class="year-tag opposite-left">2024</div>
@@ -410,15 +445,9 @@
   </main>
 
   <footer class="container">
-    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
-      <div>
-        <p>&copy; 2025 <strong>Sharon Bousso</strong> - Software Developer</p>
-        <p style="font-size: 14px; color: var(--muted); margin: 4px 0 0;">Full Stack Developer | AI/ML Engineer | CS Enthusiast</p>
-      </div>
-      <div style="display: flex; gap: 16px;">   
-        <a href="https://github.com/sharoninator/" target="_blank" rel="noreferrer" aria-label="Sharon Bousso GitHub">GitHub</a>
-        <a href="https://www.linkedin.com/in/sharon-bousso" target="_blank" rel="noreferrer" aria-label="Sharon Bousso LinkedIn">LinkedIn</a>
-      </div>
+    <div>
+      <p>&copy; 2025 <strong>Sharon Bousso</strong> - Software Developer</p>
+      <p style="font-size: 14px; color: var(--muted); margin: 4px 0 0;">Full Stack Developer | AI/ML Engineer | CS Enthusiast</p>
     </div>
   </footer>
 </body>
